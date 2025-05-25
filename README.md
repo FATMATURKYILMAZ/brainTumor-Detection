@@ -26,25 +26,26 @@ Bu proje, beyin MRI görüntüleri üzerinde makine öğrenmesi ve gözetimsiz �
 
 ---
 
-## Kurulum
+## Kurulum 
 
 ```bash
 pip install numpy matplotlib seaborn pillow scikit-learn tensorflow gradio
 
+--- 
+# GPU Hız Karşılaştırması ve Gradio Arayüzü
+
 ## GPU Hız Karşılaştırması
 
-Projemizde kullanılan modellerin ve işlemlerin GPU hızlarını karşılaştırmak amacıyla bir test gerçekleştirdim. Bu testi Google Colab ortamında GPU desteği ile yaptım. Aşağıdaki linkten testin detaylarına ve kodlarına ulaşabilirsiniz.
+Projede kullanılan modellerin GPU hızlarını karşılaştırmak amacıyla Google Colab üzerinde bir test gerçekleştirdim. Bu test sayesinde farklı GPU yapılandırmalarının performanslarını ölçerek model eğitim süresini optimize etmeyi hedefledim.
 
-👉 [GPU Speed Comparison - Google Colab](https://colab.research.google.com/drive/1-hnRMsOXKUONhHhCj89AnHfesWeYr7OD?usp=sharing)
+Test detaylarına ve kullanılan kodlara aşağıdaki Google Colab bağlantısından ulaşabilirsiniz:
 
-Bu çalışma, farklı GPU yapılandırmalarının performansını ölçerek model eğitim süresini optimize etmek için önemli bir referans sağlamaktadır.
+[📊 GPU Speed Comparison - Google Colab](https://colab.research.google.com/drive/1-hnRMsOXKUONhHhCj89AnHfesWeYr7OD?usp=sharing)
 
 ---
 
 ## Opsiyonel: Gradio ile Oluşturulan Arayüz
 
-Projemde ayrıca kullanıcı dostu bir deneyim sağlamak için **Gradio** kütüphanesini kullanarak basit ve interaktif bir arayüz oluşturdum. Bu arayüz sayesinde kullanıcılar, modelleri kolayca test edebilir ve sonuçları görsel olarak inceleyebilirler. Gradio arayüzü, kodu çalıştırmak isteyen herkesin model performansını hızlıca deneyimlemesine olanak tanır.
+Projede kullanıcıların modelleri interaktif şekilde deneyimleyebilmesi için **Gradio** kütüphanesi kullanılarak basit ve kullanışlı bir arayüz geliştirildi. Bu arayüz sayesinde kullanıcılar model çıktılarının sonuçlarını kolayca görebilir ve test edebilir.
 
-Gradio ile oluşturduğum arayüz, kullanım kolaylığı ve erişilebilirlik açısından projeye değer katmaktadır.
-
-
+Gradio arayüzü, projenin kullanım kolaylığını artırarak erişilebilirliğini sağlar.
