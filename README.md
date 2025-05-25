@@ -30,3 +30,21 @@ Bu proje, beyin MRI görüntüleri üzerinde makine öğrenmesi ve gözetimsiz �
 
 ```bash
 pip install numpy matplotlib seaborn pillow scikit-learn tensorflow gradio
+
+## GPU Hız Karşılaştırması
+
+Projemizde kullanılan modellerin ve işlemlerin GPU hızlarını karşılaştırmak amacıyla bir test gerçekleştirdim. Bu testi Google Colab ortamında GPU desteği ile yaptım. Aşağıdaki linkten testin detaylarına ve kodlarına ulaşabilirsiniz.
+
+👉 [GPU Speed Comparison - Google Colab](https://colab.research.google.com/drive/1-hnRMsOXKUONhHhCj89AnHfesWeYr7OD?usp=sharing)
+
+Bu çalışma, farklı GPU yapılandırmalarının performansını ölçerek model eğitim süresini optimize etmek için önemli bir referans sağlamaktadır.
+
+---
+
+## Opsiyonel: Gradio ile Oluşturulan Arayüz
+
+Projemde ayrıca kullanıcı dostu bir deneyim sağlamak için **Gradio** kütüphanesini kullanarak basit ve interaktif bir arayüz oluşturdum. Bu arayüz sayesinde kullanıcılar, modelleri kolayca test edebilir ve sonuçları görsel olarak inceleyebilirler. Gradio arayüzü, kodu çalıştırmak isteyen herkesin model performansını hızlıca deneyimlemesine olanak tanır.
+
+Gradio ile oluşturduğum arayüz, kullanım kolaylığı ve erişilebilirlik açısından projeye değer katmaktadır.
+
+
